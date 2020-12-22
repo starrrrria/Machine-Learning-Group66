@@ -40,5 +40,6 @@ def knn(weight):
     ax.xaxis.set_major_locator(MultipleLocator(1))
     ax.legend(fontsize='large', loc=1, ncol=1)
     plt.show()
+    
 knn('uniform')
 knn('distance')
